@@ -633,3 +633,22 @@ shared:
   -
     type: var
     var_name: L:PUSH_ECAM_PRESS
+    #MFD
+  -
+    type: var
+    var_name: L:INI_MCDU1_MODE
+  - 
+    type: var
+    var_name: L:INI_ECAM_AUTOMATIC_PAGE
+  - 
+    type: var
+    var_name: L:INI_ECAM_CHECKLIST_LEFT
+  - 
+    type: var
+    var_name: L:INI_ECAM_CHECKLIST_RIGHT
+  - 
+    type: var
+    var_name: L:INI_ECAM_CURRENT_STATUS
+  - 
+    type: var
+    var_name: L:INI_ECAM_CURRENT_PAGE
