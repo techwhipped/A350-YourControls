@@ -16,6 +16,14 @@ shared:
     var_type: f64
     event_name: THROTTLE1_SET
     interpolate: Default
+
+  -
+    type: var
+    var_name: L:INI_REVERSE1_HANDLE_PERCENT
+  -
+    type: var
+    var_name: L:INI_REVERSE2_HANDLE_PERCENT
+
   # AUTOPILOT
   -
    type: ProgramActionEvent
