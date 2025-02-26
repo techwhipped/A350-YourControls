@@ -637,6 +637,9 @@ shared:
   -
     type: var
     var_name: L:INI_MCDU1_MODE
+  -
+    type: var
+    var_name: L:INI_MCDU2_MODE
   - 
     type: var
     var_name: L:INI_ECAM_AUTOMATIC_PAGE
