@@ -633,7 +633,32 @@ shared:
   -
     type: var
     var_name: L:PUSH_ECAM_PRESS
-    #MFD
+  -
+    type: var
+    var_name: L:PUSH_ECAM_DEFRD
+  -
+    type: var
+    var_name: L:PUSH_ECAM_ABN
+  -
+    type: var
+    var_name: L:PUSH_ECAM_TOCONFIG
+  -
+    type: var
+    var_name: L:PUSH_ECAM_RCL
+  -
+    type: var
+    var_name: L:INI_ECAM_RCL_ALL
+  -
+    type: var
+    var_name: L:INI_ECAM_DISPCH
+  -
+    type: var
+    var_name: L:PUSH_ECAM_STS
+  -
+    type: var
+    var_name: L:PUSH_ECAM_MORE
+
+#MFD
   -
     type: var
     var_name: L:INI_MCDU1_MODE
