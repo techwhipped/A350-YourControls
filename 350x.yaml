@@ -471,19 +471,5 @@ shared:
     type: var
     var_name: L:INI_OXYTEST_BLINKER_4TH
   # ECAM
-  - 
-    type: var
-    var_name: INI_ECAM_CURRENT_PAGE
-  - 
-    type: var
-    var_name: ECAM_CURRENT_STATUS
-  - 
-    type: var
-    var_name: INI_ECAM_AUTOMATIC_PAGE
-  - 
-    type: var
-    var_name: INI_ECAM_CHECKLIST_LEFT
-  - 
-    type: var
-    var_name: INI_ECAM_CHECKLIST_RIGHT
+
 
