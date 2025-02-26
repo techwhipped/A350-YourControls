@@ -101,6 +101,18 @@ shared:
   - 
     type: var
     var_name: L:INI_VV_RIGHT
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_CAPT_SWITCH
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_RANGE_CAPT
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_FO_SWITCH
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_RANGE_FO
   # FCU CONTROLS
   -
     type: var
