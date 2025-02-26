@@ -238,41 +238,6 @@ shared:
   -
     type: var
     var_name: L:INI_LIGHTS_NOSE
-  # HYDRAULICS
-  -
-    type: var
-    var_name: L:INI_HYD_SUPPLY_ENG_1
-  -
-    type: var
-    var_name: L:INI_HYD_SUPPLY_ENG_2
-  -
-    type: var
-    var_name: L:INI_HYD_ENG1_GREEN
-  -
-    type: var
-    var_name: L:INI_HYD_ENG2_YELLOW
-  # ELECTRICAL
-  -
-    type: var
-    var_name: L:INI_BATTERY_1_SWITCH
-  -
-    type: var
-    var_name: L:INI_BATTERY_2_SWITCH
-  -
-    type: var
-    var_name: L:INI_BATTERY_EMER1_SWITCH
-  -
-    type: var
-    var_name: L:INI_BATTERY_EMER2_SWITCH
-  -
-    type: var
-    var_name: L:INI_GEN_EXT_A_ONLINE
-  -
-    type: var
-    var_name: L:INI_GEN_EXT_B_ONLINE
-  -
-    type: var
-    var_name: L:INI_BUS_TIE
   # FIRE
   -
     type: var
@@ -296,44 +261,6 @@ shared:
   - 
     type: var
     var_name: L:INI_MIXTURE_RATIO2_HANDLE
-  # FUEL SYSTEM
-  -
-    type: var
-    var_name: L:INI_XFEED_TRANSFER_ON
-  -
-    type: var
-    var_name: L:INI_XFEED_TRANSFER2_ON
-  -
-    type: var
-    var_name: L:INI_CENTER_TANK_LEFT
-  -
-    type: var
-    var_name: L:INI_CENTER_TANK_RIGHT
-  # OTHERS
-  -
-    type: var
-    var_name: L:INI_EVAC_STATE
-  -
-    type: var
-    var_name: L:INI_ELT_SWITCH
-  -
-    type: var
-    var_name: L:INI_WIPER_SWITCH_LEFT
-  -
-    type: var
-    var_name: L:INI_WIPER_SWITCH_RIGHT
-  -
-    type: var
-    var_name: L:INI_CREW_SUPPLY
-  -
-    type: var
-    var_name: L:INI_CALLS_ALL
-  -
-    type: var
-    var_name: L:INI_CALLS_FWD
-  -
-    type: var
-    var_name: L:INI_CALLS_AFT
   # LOWER Pedestral
   - 
     type: var
@@ -686,6 +613,59 @@ shared:
   -
     type: var
     var_name: L:INI_WIPER_SWITCH_RIGHT
+  # AIR
+  -
+    type: var
+    var_name: L:INI_AIR_X_BLEED
+  -
+    type: var
+    var_name: L:INI_AIR_WINDSHIELD_DEFOG
+  -
+    type: var
+    var_name: L:INI_TEMP_KNOB1
+  -
+    type: var
+    var_name: L:INI_TEMP_KNOB2
+  -
+    type: var
+    var_name: L:INI_RAM_AIR_STATE
+  -
+    type: var
+    var_name: L:INI_AIR_PACK1_BUTTON
+  -
+    type: var
+    var_name: L:INI_AIR_PACK2_BUTTON
+  -
+    type: var
+    var_name: L:INI_AIR_HOT_AIR1
+  -
+    type: var
+    var_name: L:INI_AIR_HOT_AIR2
+  -
+    type: var
+    var_name: L:INI_AIR_FLOW_MODE
+  -
+    type: var
+    var_name: L:INI_AIR_BLEED_ENG1
+  -
+    type: var
+    var_name: L:INI_AIR_BLEED_ENG2
+  -
+    type: var
+    var_name: L:INI_AIR_BLEED_APU
+  # ANTI ICE 
+  -
+    type: var
+    var_name: L:INI_WING_ANTI_ICE1_STATE
+  -
+    type: var
+    var_name: L:INI_ENG_ANTI_ICE2_STATE
+  -
+    type: var
+    var_name: L:INI_ENG_ANTI_ICE1_STATE
+  -
+    type: var
+    var_name: L:INI_PROBE_WINDOW_HEAT1_STATE
   # ECAM
   -
     type: var
