@@ -678,6 +678,9 @@ shared:
     var_name: L:INI_ECAM_WHEEL_R_PLUS_COMMAND
   -
     type: var
+    var_name: L:INI_ECAM_WHEEL_R_MINUS_COMMAND
+  -
+    type: var
     var_name: L:PUSH_ECAM_TOCONFIG
   -
     type: var
