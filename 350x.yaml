@@ -680,6 +680,153 @@ shared:
   -
     type: var
     var_name: L:INI_PROBE_WINDOW_HEAT1_STATE
+    #CABIN PRESS 
+  -
+    type: var
+    var_name: L:INI_CABIN_PRESS_ALTITUDE_TARGET
+  -
+    type: var
+    var_name: L:INI_CABIN_PRESS_ALTITUDE_MODE
+  -
+    type: var
+    var_name: L:INI_CABIN_PRESS_VS_MODE
+  -
+    type: var
+    var_name: L:INI_CABIN_PRESS_VS_TARGET
+  -
+    type: var
+    var_name: L:INI_DITCHING_STATE
+  #INT LIGHTS
+  -
+    type: var
+    var_name: L:INI_ANNLT_SWITCH
+  -
+    type: var
+    var_name: L:INI_LIGHTS_STBY_COMPASS
+  # SIGNS
+  -
+    type: var
+    var_name: L:INI_EMER_EXIT_SWITCH
+  -
+    type: var
+    var_name: L:INI_SIGNS_NO_MOBILE
+  -
+    type: var
+    var_name: L:INI_NO_SMOKING_SWITCH
+  -
+    type: var
+    var_name: L:INI_SEATBELTS_SWITCH
+  -
+    type: var
+    var_name: L:INI_3RD_OCCPT_CONSOLE_BRT
+  -
+    type: var
+    var_name: L:INI_3RD_OCCPT_READING_BRT
+  -
+    type: var
+    var_name: L:INI_4TH_OCCPT_READING_BRT
+  #OVHD SURV
+  -
+    type: var
+    var_name: L:INI_SURV_TO_SURV
+  -
+    type: var
+    var_name: L:INI_SURV_ROW_ROP
+  #OIS
+  -
+    type: var
+    var_name: L:INI_OIS_CAB_DATA
+  -
+    type: var
+    var_name: L:INI_OIS_GATELINK
+  -
+    type: var
+    var_name: L:INI_OIS_TO_ANVCS
+  #OVHD GND HYD 
+  -
+    type: var
+    var_name: L:INI_HYD_ELEC1_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_ELEC2_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_ELEC2_OVERRIDE
+    -
+    type: var
+    var_name: L:INI_HYD_ELEC1_OVERRIDE
+  #OVHD F/CTL
+  -
+    type: var
+    var_name: L:INI_PRIM1_STATUS
+  -
+    type: var
+    var_name: L:INI_PRIM2_STATUS
+  -
+    type: var
+    var_name: L:INI_PRIM3_STATUS
+  -
+    type: var
+    var_name: L:INI_SEC1_STATUS
+  -
+    type: var
+    var_name: L:INI_SEC2_STATUS
+  -
+    type: var
+    var_name: L:INI_SEC3_STATUS
+  #CARGO AIR COND
+  -
+    type: var
+    var_name: L:INI_ISOL_VALVE_AFT_BUTTON
+  -
+    type: var
+    var_name: L:INI_ISOL_VALVE_FWD_BUTTON
+  -
+    type: var
+    var_name: L:INI_ISOL_VALVE_BULK_BUTTON
+  -
+    type: var
+    var_name: L:INI_TEMP_KNOB4
+  -
+    type: var
+    var_name: L:INI_TEMP_KNOB3
+  -
+    type: var
+    var_name: L:INI_CARGO_AIR_COND_HEATER
+  # CARGO SMOKE
+  -
+    type: var
+    var_name: L:INI_CARGO_SMOKE_AGENT_TO_FWD
+  -
+    type: var
+    var_name: L:INI_CARGO_SMOKE_AGENT_TO_AFT
+  #VENT
+  -
+    type: var
+    var_name: L:INI_VENT_AVNCS_EXTRACT
+  -
+    type: var
+    var_name: L:INI_VENT_CABIN_FANS
+    -
+    type: var
+    var_name: L:INI_VENT_COOLING
+  #ENG MAN START 
+  -
+    type: var
+    var_name: L:INI_ENG1_MAN_START
+  -
+    type: var
+    var_name: L:INI_ENG2_MAN_START
+  -
+    type: var
+    var_name: L:INI_CAB_SMOKE_IFEC
+  #CVR 
+  -
+    type: var
+    var_name: L:INI_CVR_TEST
+  -
+    type: var
+    var_name: L:INI_CVR_ERASE
   # ECAM
   -
     type: var
