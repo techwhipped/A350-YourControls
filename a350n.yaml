@@ -146,9 +146,6 @@ shared:
   var_name: L:INI_FCU_ALTITUDE_PULL_COMMAND
 - 
   type: var
-  var_name: L:INI_ALTITUDE_DIAL
-- 
-  type: var
   var_name: L:INI_FCU_LEVEL_OFF_COMMAND
 - 
   type: var
