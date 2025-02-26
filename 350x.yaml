@@ -471,5 +471,7 @@ shared:
     type: var
     var_name: L:INI_OXYTEST_BLINKER_4TH
   # ECAM
-
+  -
+    type: var
+    var_name: L_PUSH_ECAM_ENG
 
