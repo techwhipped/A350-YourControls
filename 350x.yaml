@@ -24,6 +24,11 @@ shared:
     type: var
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
 
+  #Flaps
+  -
+    type: var
+    var_name: L:INI_FLAPS_HANDLE_INDEX
+
   # AUTOPILOT
   -
    type: ProgramActionEvent
