@@ -533,3 +533,33 @@ shared:
   -
     type: var
     var_name: L:PUSH_ECAM_ENG
+  -
+    type: var
+    var_name: L:PUSH_ECAM_DOOR
+  -
+    type: var
+    var_name: L:PUSH_ECAM_WHEEL
+  -
+    type: var
+    var_name: L:PUSH_ECAM_ELEC_AC
+  -
+    type: var
+    var_name: L:PUSH_ECAM_ELEC_DC
+  -
+    type: var
+    var_name: L:PUSH_ECAM_HYD
+  -
+    type: var
+    var_name: L:PUSH_ECAM_FCTL
+  -
+    type: var
+    var_name: L:INI_PUSH_ECAM_APU_RELEASE
+  -
+    type: var
+    var_name: L:PUSH_ECAM_BLEED
+  -
+    type: var
+    var_name: L:PUSH_ECAM_COND
+  -
+    type: var
+    var_name: L:PUSH_ECAM_PRESS
