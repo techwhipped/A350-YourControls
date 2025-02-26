@@ -377,8 +377,4 @@ shared:
   - 
     type: var
     var_name: L:INI_WXR_GAIN_RIGHT_PULL
-  # ECAM
-  - 
-    type: var
-    var_name: INI_ECAM_CURRENT_PAGE
   
