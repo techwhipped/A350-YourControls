@@ -377,3 +377,88 @@ shared:
   - 
     type: var
     var_name: L:INI_WXR_GAIN_RIGHT_PULL
+  #UPPER OVHD
+  -
+    type: var
+    var_name: L:INI_OXYGEN_RESET
+  -
+    type: var
+    var_name: L:INI_SERVICE_INTERPHONE_OVRD
+  -
+    type: var
+    var_name: L:INI_TOWING_ON_BAT_POWER
+  -
+    type: var
+    var_name: L:INI_FADEC1_GND_POWER_STATE
+  -
+    type: var
+    var_name: L:INI_FADEC2_GND_POWER_STATE
+  -
+    type: var
+    var_name: L:INI_BATT_VOLTAGE_SELECTOR
+  -
+    type: var
+    var_name: L:INI_COM_GROUND_HF_DATALINK
+  -
+    type: var
+    var_name: L:INI_CKPT_DOOR
+  -
+    type: var
+    var_name: L:INI_APU_ECON_MODE
+  -
+    type: var
+    var_name: L:INI_FUEL_REFUEL_END
+    
+  #OVHD ADIRS
+  -
+    type: var
+    var_name: L:INI_IR1_STATE
+  -
+    type: var
+    var_name: L:INI_IR3_STATE
+  -
+    type: var
+    var_name: L:INI_IR2_STATE
+  -
+    type: var
+    var_name: L:INI_ADR1_STATE
+  -
+    type: var
+    var_name: L:INI_ADR3_STATE
+  -
+    type: var
+    var_name: L:INI_ADR2_STATE
+  #OXYGEN TEST
+  -
+    type: var
+    var_name: L:INI_OXYGEN_RESET
+  -
+    type: var
+    var_name: L:INI_OXYTEST_CPT_N
+  -
+    type: var
+    var_name: L:INI_OXYTEST_FO_N
+  -
+    type: var
+    var_name: L:INI_OXYTEST_HATCH_CPT
+  -
+    type: var
+    var_name: L:INI_OXYTEST_HATCH_FO
+  -
+    type: var
+    var_name: L:INI_OXYTEST_HATCH_TO
+  -
+    type: var
+    var_name: L:INI_OXYTEST_TO_N
+  -
+    type: var
+    var_name: L:INI_OXYTEST_BLINKER_CPT
+  -
+    type: var
+    var_name: L:INI_OXYTEST_BLINKER_FO
+  -
+    type: var
+    var_name: L:INI_OXYTEST_BLINKER_TO
+  -
+    type: var
+    var_name: L:INI_OXYTEST_BLINKER_4TH
