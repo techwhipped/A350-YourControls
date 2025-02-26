@@ -638,7 +638,7 @@ shared:
     var_name: L:PUSH_ECAM_DEFRD
   -
     type: var
-    var_name: L:PUSH_ECAM_ABN
+    var_name: L:INI_ECAM_ABN
   -
     type: var
     var_name: L:PUSH_ECAM_TOCONFIG
