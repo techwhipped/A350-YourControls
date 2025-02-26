@@ -221,6 +221,12 @@ shared:
     var_name: L:INI_BATTERY_2_SWITCH
   -
     type: var
+    var_name: L:INI_BATTERY_EMER1_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_EMER2_SWITCH
+  -
+    type: var
     var_name: L:INI_GEN_EXT_A_ONLINE
   -
     type: var
