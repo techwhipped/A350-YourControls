@@ -1,0 +1,189 @@
+# Version 1.0.0
+
+include:
+  - definitions/modules/physics.yaml
+  - definitions/modules/radios.yaml
+  - definitions/modules/service.yaml
+  - definitions/modules/slew.yaml
+
+shared:
+  # AUTOPILOT
+  -
+    type: var
+    var_name: L:INI_AP1_BUTTON
+  -
+    type: var
+    var_name: L:INI_AP2_BUTTON
+  -
+    type: var
+    var_name: L:AP8_BUTTON # A/THR
+  -
+    type: var
+    var_name: L:AP6_BUTTON # LOC
+  -
+    type: var
+    var_name: L:AP7_BUTTON # APPR
+  # EFIS CONTROLS
+  -
+    type: var
+    var_name: L:INI_EFIS_CPT_CSTR_BUTTON
+  -
+    type: var
+    var_name: L:INI_EFIS_CPT_FIXES_BUTTON
+  -
+    type: var
+    var_name: L:INI_EFIS_CPT_VOR_BUTTON
+  -
+    type: var
+    var_name: L:INI_EFIS_CPT_NDB_BUTTON
+  -
+    type: var
+    var_name: L:INI_EFIS_CPT_ARPT_BUTTON
+  -
+    type: var
+    var_name: L:INI_EFIS_BSK_1_CPT
+  -
+    type: var
+    var_name: L:INI_EFIS_BSK_2_CPT
+  -
+    type: var
+    var_name: L:INI_EFIS_BSK_3_CPT
+  -
+    type: var
+    var_name: L:INI_EFIS_BSK_4_CPT
+  -
+    type: var
+    var_name: L:INI_EFIS_BSK_5_CPT
+  # FCU CONTROLS
+  -
+    type: var
+    var_name: L:INI_AIRSPEED_DIAL_UP_COMMAND
+  -
+    type: var
+    var_name: L:INI_AIRSPEED_DIAL_DN_COMMAND
+  -
+    type: var
+    var_name: L:INI_FCU_SELECTED_SPEED_BUTTON
+  -
+    type: var
+    var_name: L:INI_FCU_MANAGED_SPEED_BUTTON
+  -
+    type: var
+    var_name: L:INI_FCU_ALTITUDE_PULL_COMMAND
+  -
+    type: var
+    var_name: L:INI_FCU_ALTITUDE_PUSH_COMMAND
+  -
+    type: var
+    var_name: L:INI_FCU_SELECTED_HEADING_BUTTON
+  -
+    type: var
+    var_name: L:INI_FCU_MANAGED_HEADING_BUTTON
+  -
+    type: var
+    var_name: L:INI_FCU_HDG_VS_COMMAND
+  -
+    type: var
+    var_name: L:INI_FCU_LEVEL_OFF_COMMAND
+  # LIGHTS
+  -
+    type: var
+    var_name: L:INI_LIGHTS_STROBE
+  -
+    type: var
+    var_name: L:INI_LIGHTS_BEACON
+  -
+    type: var
+    var_name: L:INI_LIGHTS_NAV
+  -
+    type: var
+    var_name: L:INI_LIGHTS_LOGO
+  -
+    type: var
+    var_name: L:INI_LIGHTS_WING
+  -
+    type: var
+    var_name: L:INI_LIGHTS_LANDING
+  -
+    type: var
+    var_name: L:INI_LIGHTS_NOSE
+  # HYDRAULICS
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_1
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_2
+  -
+    type: var
+    var_name: L:INI_HYD_ENG1_GREEN
+  -
+    type: var
+    var_name: L:INI_HYD_ENG2_YELLOW
+  # ELECTRICAL
+  -
+    type: var
+    var_name: L:INI_BATTERY_1_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_2_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_EXT_A_ONLINE
+  -
+    type: var
+    var_name: L:INI_GEN_EXT_B_ONLINE
+  -
+    type: var
+    var_name: L:INI_BUS_TIE
+  # FIRE
+  -
+    type: var
+    var_name: L:INI_FIRE_ENG_1_FIRE_PB
+  -
+    type: var
+    var_name: L:INI_FIRE_ENG_2_FIRE_PB
+  -
+    type: var
+    var_name: L:INI_FIRE_APU_FIRE_PB
+  -
+    type: var
+    var_name: L:INI_FIRE_TEST
+  # FUEL SYSTEM
+  -
+    type: var
+    var_name: L:INI_XFEED_TRANSFER_ON
+  -
+    type: var
+    var_name: L:INI_XFEED_TRANSFER2_ON
+  -
+    type: var
+    var_name: L:INI_CENTER_TANK_LEFT
+  -
+    type: var
+    var_name: L:INI_CENTER_TANK_RIGHT
+  # OTHERS
+  -
+    type: var
+    var_name: L:INI_EVAC_STATE
+  -
+    type: var
+    var_name: L:INI_ELT_SWITCH
+  -
+    type: var
+    var_name: L:INI_WIPER_SWITCH_LEFT
+  -
+    type: var
+    var_name: L:INI_WIPER_SWITCH_RIGHT
+  -
+    type: var
+    var_name: L:INI_CREW_SUPPLY
+  -
+    type: var
+    var_name: L:INI_CALLS_ALL
+  -
+    type: var
+    var_name: L:INI_CALLS_FWD
+  -
+    type: var
+    var_name: L:INI_CALLS_AFT
