@@ -35,7 +35,7 @@ shared:
   -
     type: var
     var_name: L:INI_BARO1_DEC_COMMAND
-    -
+  -
     type: var
     var_name: L:INI_BARO2_INC_COMMAND
   -
