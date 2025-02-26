@@ -112,13 +112,13 @@ shared:
     var_name: L:INI_MAP_MODE_CAPT_SWITCH
   - 
     type: var
-    var_name: L:INI_MAP_MODE_RANGE_CAPT
+    var_name: L:INI_MAP_MODE_RANGE_CAPT_SWITCH
   - 
     type: var
     var_name: L:INI_MAP_MODE_FO_SWITCH
   - 
     type: var
-    var_name: L:INI_MAP_MODE_RANGE_FO
+    var_name: L:INI_MAP_MODE_RANGE_FO_SWITCH
   # FCU CONTROLS
   -
     type: var
