@@ -4,7 +4,6 @@ include:
   - definitions/modules/service.yaml
   - definitions/modules/slew.yaml
 
-  du bist dumm
 shared:
 -
   type: ProgramActionEvent
