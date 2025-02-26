@@ -529,6 +529,76 @@ shared:
   -
     type: var
     var_name: L:INI_FUEL_CTR_TANK_FEED_MAN
+  # ELECTRICAL
+  -
+    type: var
+    var_name: L:INI_BATTERY_1_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_2_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_EMER1_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_EMER2_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_EXT_A_ONLINE
+  -
+    type: var
+    var_name: L:INI_GEN_EXT_B_ONLINE
+  -
+    type: var
+    var_name: L:INI_BUS_TIE
+  -
+    type: var
+    var_name: L:INI_RAT1_SWITCH
+  -
+    type: var
+    var_name: L:INI_COMMERCIAL1_ON
+  -
+    type: var
+    var_name: L:INI_COMMERCIAL2_ON
+  -
+    type: var
+    var_name: L:INI_ELEC_ELM
+  -
+    type: var
+    var_name: L:INI_GALLEY_CAB
+  -
+    type: var
+    var_name: L:INI_GEN_1A_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_1B_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_2A_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_2B_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN_APU_GEN_SWITCH
+  -
+    type: var
+    var_name: L:INI_GEN1A_IDG_STATE
+  -
+    type: var
+    var_name: L:INI_GEN1B_IDG_STATE
+  -
+    type: var
+    var_name: L:INI_GEN2A_IDG_STATE
+  -
+    type: var
+    var_name: L:INI_GEN2B_IDG_STATE
+  -
+    type: var
+    var_name: L:INI_ELEC_PAX_SYS
+  -
+    type: var
+    var_name: L:INI_ELEC_SIDE_ISOL
   # ECAM
   -
     type: var
