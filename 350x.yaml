@@ -750,6 +750,12 @@ shared:
   -
     type: var
     var_name: L:PUSH_ECAM_MORE
+  - 
+    type: var
+    var_name: L:PUSH_ECAM_CLEAR_LEFT
+  - 
+    type: var
+    var_name: L:PUSH_ECAM_CLEAR_RIGHT
 
 #MFD
   -
