@@ -3,7 +3,7 @@ include:
   - definitions/modules/radios.yaml
   - definitions/modules/service.yaml
   - definitions/modules/slew.yaml
-test
+
 shared:
 -
   type: ProgramActionEvent
