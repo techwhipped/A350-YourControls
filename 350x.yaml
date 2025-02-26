@@ -407,8 +407,7 @@ shared:
     var_name: L:INI_APU_ECON_MODE
   -
     type: var
-    var_name: L:INI_FUEL_REFUEL_END
-    
+    var_name: L:INI_FUEL_REFUEL_END   
   #OVHD ADIRS
   -
     type: var
