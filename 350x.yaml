@@ -633,6 +633,50 @@ shared:
   -
     type: var
     var_name: L:INI_EVAC_SELECTOR_SWITCH
+  # CALLS
+  -
+    type: var
+    var_name: L:INI_CALLS_AFT
+  -
+    type: var
+    var_name: L:INI_CALLS_EXIT
+  -
+    type: var
+    var_name: L:INI_CALLS_MID
+  -
+    type: var
+    var_name: L:INI_CALLS_FWD
+  -
+    type: var
+    var_name: L:INI_CALLS_PURS
+  -
+    type: var
+    var_name: L:INI_CALLS_FLT_REST
+  -
+    type: var
+    var_name: L:INI_CALLS_ALL
+  -
+    type: var
+    var_name: L:INI_CALLS_CAB_REST
+  -
+    type: var
+    var_name: L:INI_CALLS_EMER
+  -
+    type: var
+    var_name: L:INI_CALLS_MECH
+  # WIPERS
+  -
+    type: var
+    var_name: L:INI_WIPER_RAIN_RPLNT_LEFT
+  -
+    type: var
+    var_name: L:INI_WIPER_RAIN_RPLNT_RIGHT
+  -
+    type: var
+    var_name: L:INI_WIPER_SWITCH_LEFT
+  -
+    type: var
+    var_name: L:INI_WIPER_SWITCH_RIGHT
   # ECAM
   -
     type: var
