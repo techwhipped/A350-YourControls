@@ -470,5 +470,64 @@ shared:
   -
     type: var
     var_name: L:INI_OXYTEST_BLINKER_4TH
+  #OVHD HYD
+  -
+    type: var
+    var_name: L:INI_HYD_ENG1_GREEN_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_ENG1_YELLOW_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_ENG2_GREEN_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_ENG2_YELLOW_STATE
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_1_GREEN
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_1_YELLOW
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_2_GREEN
+  -
+    type: var
+    var_name: L:INI_HYD_SUPPLY_ENG_2_YELLOW
+  #OVHD FUEL
+  -
+    type: var
+    var_name: L:INI_OUTER_TANK_LEFT
+  -
+    type: var
+    var_name: L:INI_INNER_TANK_LEFT
+  -
+    type: var
+    var_name: L:INI_OUTER_TANK_RIGHT
+  -
+    type: var
+    var_name: L:INI_INNER_TANK_RIGHT
+  -
+    type: var
+    var_name: L:INI_CENTER_TANK_LEFT
+  -
+    type: var
+    var_name: L:INI_CENTER_TANK_RIGHT
+  -
+    type: var
+    var_name: L:INI_FUEL_TANK_TRANSFER_LEFT
+  -
+    type: var
+    var_name: L:INI_FUEL_TANK_TRANSFER_RIGHT
+  -
+    type: var
+    var_name: L:INI_XFEED_TRANSFER_ON
+  -
+    type: var
+    var_name: L:INI_XFEED_TRANSFER2_ON
+  -
+    type: var
+    var_name: L:INI_FUEL_CTR_TANK_FEED_MAN
   # ECAM
 
