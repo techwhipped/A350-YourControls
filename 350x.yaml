@@ -420,6 +420,12 @@ shared:
   -
     type: var
     var_name: L:INI_OXYTEST_BLINKER_4TH
+  -
+    type: var
+    var_name: L:INI_OXYTEST_HATCH_4TH
+  -
+    type: var
+    var_name: L:INI_OXYTEST_4TH_N
   #OVHD HYD
   -
     type: var
@@ -827,6 +833,28 @@ shared:
   -
     type: var
     var_name: L:INI_CVR_ERASE
+    #VISORS
+  -
+    type: var
+    var_name: L:INI_CPT_VISOR
+  -
+    type: var
+    var_name: L:INI_CPT_VISOR_SIDE
+  -
+    type: var
+    var_name: L:INI_CPT_VISOR_BACK
+  -
+    type: var
+    var_name: L:INI_FO_VISOR
+  -
+    type: var
+    var_name: L:INI_FO_VISOR_BACK
+  -
+    type: var
+    var_name: L:INI_FO_VISOR_SIDE
+  -
+    type: var
+    var_name: L:INI_CTR_VISOR_MAIN
   # ECAM
   -
     type: var
