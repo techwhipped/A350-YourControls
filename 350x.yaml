@@ -752,7 +752,7 @@ shared:
     var_name: L:PUSH_ECAM_MORE
   - 
     type: var
-    var_name: L:PUSH_ECAM_CLEAR_LEFT
+    var_name: L:PUSH_ECAM_CLEAR
   - 
     type: var
     var_name: L:PUSH_ECAM_CLEAR_RIGHT
