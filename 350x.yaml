@@ -9,6 +9,11 @@ include:
 shared:
   # AUTOPILOT
   -
+   type: ProgramActionEvent
+   event_name: AUTOPILOT_OFF
+   action: TakeControls
+
+  -
     type: var
     var_name: L:INI_AP1_BUTTON
   -
@@ -54,6 +59,48 @@ shared:
   -
     type: var
     var_name: L:INI_EFIS_BSK_5_CPT
+  -  
+    type: var
+    var_name: L:INI_LOUDSPEAKER_1
+  -  
+    type: var
+    var_name: L:INI_LOUDSPEAKER_2
+  - 
+    type: var
+    var_name: L:INI_CPT_CHRONO_BUTTON
+  - 
+    type: var
+    var_name: L:INI_FO_CHRONO_BUTTON
+  - 
+    type: var
+    var_name: L:INI_MASTER_WARNING_COMMAND
+  - 
+    type: var
+    var_name: L:INI_MASTER_CAUTION_COMMAND
+  - 
+    type: var
+    var_name: L:INI_1_ALTIMETER_PUSH_COMMAND
+  - 
+    type: var
+    var_name: L:INI_1_ALTIMETER_PULL_COMMAND
+  - 
+    type: var
+    var_name: L:INI_2_ALTIMETER_PUSH_COMMAND
+  - 
+    type: var
+    var_name: L:INI_2_ALTIMETER_PULL_COMMAND
+  - 
+    type: var
+    var_name: L:INI_LS_CPT
+  - 
+    type: var
+    var_name: L:INI_VV_LEFT  
+  - 
+    type: var
+    var_name: L:INI_LS_FO
+  - 
+    type: var
+    var_name: L:INI_VV_RIGHT
   # FCU CONTROLS
   -
     type: var
@@ -61,6 +108,9 @@ shared:
   -
     type: var
     var_name: L:INI_AIRSPEED_DIAL_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_AIRSPEED_DIAL
   -
     type: var
     var_name: L:INI_FCU_SELECTED_SPEED_BUTTON
@@ -73,6 +123,18 @@ shared:
   -
     type: var
     var_name: L:INI_FCU_ALTITUDE_PUSH_COMMAND
+  - 
+    type: var
+    var_name: L:INI_FCU_ALTITUDE_MODE_COMMAND
+  - 
+    type: var
+    var_name: L:INI_ALTITUDE_DIAL_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_ALTITUDE_DIAL_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_ALTITUDE_DIAL
   -
     type: var
     var_name: L:INI_FCU_SELECTED_HEADING_BUTTON
@@ -85,6 +147,36 @@ shared:
   -
     type: var
     var_name: L:INI_FCU_LEVEL_OFF_COMMAND
+  - 
+    type: var
+    var_name: L:INI_NORTH_REF_STATE
+  - 
+    type: var
+    var_name: L:INI_SPD_MACH_BUTTON
+  - 
+    type: var
+    var_name: L:INI_NORTH_REF_STATE
+  - 
+    type: var
+    var_name: L:INI_FD_ON
+  - 
+    type: var
+    var_name: L:INI_FCU_METRIC_STATE
+  - 
+    type: var
+    var_name: L:INI_VVI_DIAL_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_VVI_DIAL_DN_COMMAND 
+  - 
+    type: var
+    var_name: L:INI_VVI_DIAL
+  - 
+    type: var
+    var_name: L:INI_FCU_PUSH_COMMAND
+  - 
+    type: var
+    var_name: L:INI_FCU_PULL_COMMAND 
   # LIGHTS
   -
     type: var
@@ -149,6 +241,16 @@ shared:
   -
     type: var
     var_name: L:INI_FIRE_TEST
+  # ENG
+  - 
+    type: var
+    var_name: L:INI_IGNITION_KNOB
+  - 
+    type: var
+    var_name: L:INI_MIXTURE_RATIO1_HANDLE
+  - 
+    type: var
+    var_name: L:INI_MIXTURE_RATIO2_HANDLE
   # FUEL SYSTEM
   -
     type: var
@@ -187,3 +289,55 @@ shared:
   -
     type: var
     var_name: L:INI_CALLS_AFT
+  # LOWER Pedestral
+  - 
+    type: var
+    var_name: L:INI_EMER_DESCENT_REQ
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_LEFT_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_LEFT_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_LEFT_PUSH
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_LEFT_PULL
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_RIGHT_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_RIGHT_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_RIGHT_PUSH
+  - 
+    type: var
+    var_name: L:INI_WXR_ELEV_RIGHT_PULL
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_LEFT_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_LEFT_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_LEFT_PUSH
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_LEFT_PULL
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_RIGHT_UP_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_RIGHT_DN_COMMAND
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_RIGHT_PUSH
+  - 
+    type: var
+    var_name: L:INI_WXR_GAIN_RIGHT_PULL
