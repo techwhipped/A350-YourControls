@@ -7,6 +7,15 @@ include:
   - definitions/modules/slew.yaml
 
 shared:
+  #Throttle
+  -
+    type: numset
+    var_name: L:INI_AUTOTHRUST_TLA:1
+    var_type: f64
+    event_name: ENG_THROTTLE_LEFT
+    interpolate: Default
+
+
   # AUTOPILOT
   -
    type: ProgramActionEvent
