@@ -97,6 +97,12 @@ shared:
     var_name: L:INI_2_ALTIMETER_PULL_COMMAND
   - 
     type: var
+    var_name: L:INI_1_ALTIMETER_DIAL
+  - 
+    type: var
+    var_name: L:INI_2_ALTIMETER_DIAL
+  - 
+    type: var
     var_name: L:INI_LS_CPT
   - 
     type: var
@@ -107,6 +113,18 @@ shared:
   - 
     type: var
     var_name: L:INI_VV_RIGHT
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_CAPT_SWITCH
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_RANGE_CAPT_SWITCH
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_FO_SWITCH
+  - 
+    type: var
+    var_name: L:INI_MAP_MODE_RANGE_FO_SWITCH
   # FCU CONTROLS
   -
     type: var
@@ -225,6 +243,12 @@ shared:
   -
     type: var
     var_name: L:INI_BATTERY_2_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_EMER1_SWITCH
+  -
+    type: var
+    var_name: L:INI_BATTERY_EMER2_SWITCH
   -
     type: var
     var_name: L:INI_GEN_EXT_A_ONLINE
