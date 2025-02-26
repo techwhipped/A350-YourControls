@@ -304,7 +304,7 @@ shared:
 - 
   type: var
   var_name: L:INI_MCDUx_H
- - 
+- 
   type: var
   var_name: L:INI_MCDUx_I
 - 
