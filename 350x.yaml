@@ -9,12 +9,12 @@ include:
 shared:
   
   #Throttle
-  -
-    type: numset
-    var_name: L:INI_AUTOTHRUST_TLA:1
-    var_type: f64
-    event_name: THROTTLE1_SET
-    interpolate: Default
+  #-
+  #  type: numset
+  #  var_name: L:INI_AUTOTHRUST_TLA:1
+  #  var_type: f64
+  #  event_name: THROTTLE1_SET
+  #  interpolate: Default
   -
     type: var
     var_name: L:INI_AUTOTHRUST_TLA:1
