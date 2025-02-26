@@ -599,6 +599,40 @@ shared:
   -
     type: var
     var_name: L:INI_ELEC_SIDE_ISOL
+  #OVHD ELT
+  -
+    type: var
+    var_name: L:INI_ELT_SWITCH
+  -
+    type: var
+    var_name: L:INI_ELT_SWITCH_GUARD
+  #OVHD ACMS,DFDR,RCDR
+  -
+    type: var
+    var_name: L:INI_RCD_ACMS_TRIGGER
+  -
+    type: var
+    var_name: L:INI_RCD_DFDR_EVENT
+  -
+    type: var
+    var_name: L:INI_GND_CTL
+  #OVHD OXYGEN
+  -
+    type: var
+    var_name: L:INI_CREW_SUPPLY
+  -
+    type: var
+    var_name: L:INI_OXYGEN_MASK_MAN
+  #OVHD EVAC
+  -
+    type: var
+    var_name: L:INI_EVAC_STATE
+  -
+    type: var
+    var_name: L:INI_EVAC_HORN_OFF_BUTTON
+  -
+    type: var
+    var_name: L:INI_EVAC_SELECTOR_SWITCH
   # ECAM
   -
     type: var
