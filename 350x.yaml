@@ -530,4 +530,6 @@ shared:
     type: var
     var_name: L:INI_FUEL_CTR_TANK_FEED_MAN
   # ECAM
-
+  -
+    type: var
+    var_name: L:PUSH_ECAM_ENG
