@@ -252,7 +252,6 @@ shared:
 - 
   type: var
   var_name: L:INI_MCDUx_DIR_TO
-
 - 
   type: var
   var_name: L:INI_MCDUx_FPLAN
