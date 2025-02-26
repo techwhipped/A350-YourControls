@@ -60,6 +60,12 @@ shared:
     var_name: L:INI_BARO2_DEC_COMMAND
   -
     type: var
+    var_name: L:INI_ISIS1_BARO_PLUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_BARO_MINUS_COMMAND
+  -
+    type: var
     var_name: L:INI_EFIS_CPT_CSTR_BUTTON
   -
     type: var
