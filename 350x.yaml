@@ -91,6 +91,12 @@ shared:
     var_name: L:INI_2_ALTIMETER_PULL_COMMAND
   - 
     type: var
+    var_name: L:INI_1_ALTIMETER_DIAL
+  - 
+    type: var
+    var_name: L:INI_2_ALTIMETER_DIAL
+  - 
+    type: var
     var_name: L:INI_LS_CPT
   - 
     type: var
