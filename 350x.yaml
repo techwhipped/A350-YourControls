@@ -411,6 +411,15 @@ shared:
   #OVHD ADIRS
   -
     type: var
+    var_name: L:INI_IRS1_STATE
+  -
+    type: var
+    var_name: L:INI_IRS2_STATE
+  -
+    type: var
+    var_name: L:INI_IRS3_STATE
+  -
+    type: var
     var_name: L:INI_IR1_STATE
   -
     type: var
