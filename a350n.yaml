@@ -670,7 +670,7 @@ shared:
   var_name: L:INI_WXR_GAIN_RIGHT_PULL
 - 
   type: var
-  var_name: L:INI_ELEC_EXT_1 
+  var_name: L:INI_ELEC_EXT_1_PUSH
 -
   type: var
-  var_name: L:INI_ELEC_EXT_2
+  var_name: L:INI_ELEC_EXT_2_PUSH
