@@ -5,6 +5,7 @@ include:
   - definitions/modules/radios.yaml
   - definitions/modules/service.yaml
   - definitions/modules/slew.yaml
+  - definitions/modules/handling.yaml
 
 shared:
   
