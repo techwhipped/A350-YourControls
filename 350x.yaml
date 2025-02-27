@@ -1696,3 +1696,21 @@ shared:
   -
     type: var
     var_name: L:FMGS1_PERF_PAGE
+  -
+    type: var
+    var_name: L:INI_FMC1_CLR_ENTRY
+  -
+    type: var
+    var_name: L:INI_FMC1_RDY
+  -
+    type: var
+    var_name: L:FMGS_TOTAL_SEGMENT
+  -
+    type: var
+    var_name: L:FMGS_CURRENT_SEGMENT
+  -
+    type: var
+    var_name: L:FMGS_SEGMENT_MODE
+  -
+    type: var
+    var_name: L:INI_FMS_SELECTOR
