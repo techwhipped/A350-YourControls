@@ -1599,3 +1599,61 @@ shared:
   -
     type: var
     var_name: L:INI_RMP_INT_RAD_1
+  #MCDU TEST
+  -
+    type: var
+    var_name: L:INI_FMC1_FM
+  -
+    type: var
+    var_name: L:INI_FMC1_FM1
+  -
+    type: var
+    var_name: L:INI_FMC1_FM2
+  -
+    type: var
+    var_name: L:INI_FMC1_IND
+  -
+    type: var
+    var_name: L:INI_FMC1_MCDU
+  -
+    type: var
+    var_name: L:INI_FMC1_DASH
+  -
+    type: var
+    var_name: L:INI_FMC_KEY_INPUT
+  -
+    type: var
+    var_name: L:INI_FMC_PAGE1
+  -
+    type: var
+    var_name: L:INI_FMC_PAGE1_PREV
+  -
+    type: var
+    var_name: L:INI_FMC_PAGE2
+  -
+    type: var
+    var_name: L:INI_FMC_PAGE2_PREV
+  -
+    type: var
+    var_name: L:INI_FMC_RESET
+  -
+    type: var
+    var_name: L:INI_CHECKLIST_MENU_FMC1
+  -
+    type: var
+    var_name: L:INI_FMS_MDA
+  -
+    type: var
+    var_name: L:INI_CPT_CURSOR_SCREEN
+  -
+    type: var
+    var_name: L:INI_CPT_TRAY
+  -
+    type: var
+    var_name: L:INI_CPT_TRAY_COVER
+  -
+    type: var
+    var_name: L:INI_CPT_TRAY_PEDAL
+  -
+    type: var
+    var_name: L:INI_FO_TRAY_COVER_TGT
