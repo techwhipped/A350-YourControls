@@ -27,6 +27,20 @@ shared:
   -
     type: var
     var_name: L:INI_TLA2_REQUEST
+  -
+    type: numset
+    var_name: L:INI_TLA1_REQUEST
+    var_units: Position 45K
+    var_type: f64
+    event_name: THROTTLE1_SET
+    interpolate: Default
+  -
+    type: numset
+    var_name: L:INI_TLA2_REQUEST
+    var_units: Position 45K
+    var_type: f64
+    event_name: THROTTLE2_SET
+    interpolate: Default
 
   #Flaps
   -
