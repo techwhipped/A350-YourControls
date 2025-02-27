@@ -1656,4 +1656,43 @@ shared:
     var_name: L:INI_CPT_TRAY_PEDAL
   -
     type: var
-    var_name: L:INI_FO_TRAY_COVER_TGT
+    var_name: L:FMGS1_ACTIVE_SUBSYSTEM
+  -
+    type: var
+    var_name: L:FMGS1_INIT_BUTTON_REQ
+  -
+    type: var
+    var_name: L:FMGS1_LOADING_SUBSYSTEM
+  -
+    type: var
+    var_name: L:FMGS1_AIRPORT_BUTTON_REQ
+  -
+    type: var
+    var_name: L:FMGS1_PERF_MODE
+  -
+    type: var
+    var_name: L:FMGS1_FPLAN_MODE
+  -
+    type: var
+    var_name: L:FMGS1_WIND_MODE
+  -
+    type: var
+    var_name: L:FMGS1_INIT_MODE
+  -
+    type: var
+    var_name: L:FMGS_V1_PERF
+  -
+    type: var
+    var_name: L:FMGS_V2_PERF
+  -
+    type: var
+    var_name: L:FMGS_VR_PERF
+  -
+    type: var
+    var_name: L:FMGS1_SHOW_NEW_DEST_WINDOW
+  -
+    type: var
+    var_name: L:FMGS1_SHOW_NEXT_WPT_WINDOW
+  -
+    type: var
+    var_name: L:FMGS1_PERF_PAGE
