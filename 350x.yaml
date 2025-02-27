@@ -22,12 +22,6 @@ shared:
     type: var
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
   -
-    type: var
-    var_name: L:INI_TLA1_REQUEST
-  -
-    type: var
-    var_name: L:INI_TLA2_REQUEST
-  -
     type: numset
     var_name: L:INI_TLA1_REQUEST
     var_units: Position 65k
