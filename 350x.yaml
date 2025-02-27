@@ -26,13 +26,13 @@ shared:
 
   #Flaps
   -
-    type: NumIncrement
-    var_name: L:FCLTL_FLAPS_LEVER
-    var_units: Position 16k
+    type: numset
+    var_name: A:FLAPS_HANDLE_PERCENT
+    var_units: Percent 16k
     var_type: f64
-    event_name: FLAPS_HANDLE_PERCENT
+    event_name: FLCTL_FLAPS_LEVER
     increment_by: 4096
-    is_user_event: true
+    interpolate: Default
 
   # AUTOPILOT
   -
