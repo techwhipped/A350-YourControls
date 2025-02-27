@@ -818,7 +818,7 @@ shared:
   -
     type: var
     var_name: L:INI_VENT_CABIN_FANS
-    -
+  -
     type: var
     var_name: L:INI_VENT_COOLING
   #ENG MAN START 
