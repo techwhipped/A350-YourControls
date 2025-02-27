@@ -23,10 +23,10 @@ shared:
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1
+    var_name: L:INI_AUTOTHRUST_TLA:1
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2
+    var_name: L:INI_AUTOTHRUST_TLA:2
   -
     type: var
     var_name: L:INI_THROTTLE_LEVER2_POS
