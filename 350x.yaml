@@ -45,10 +45,24 @@ shared:
   -
     type: var
     var_name: L:INI_TLA1_REQUEST
+  -
+    type: NumSet
+    var_name: L:INI_TLA1_REQUEST
+    var_units: Position 16k
+    var_type: f64
+    event_name: THROTTLE1_SET
+    unreliable: true
+  -
+    type: NumSet
+    var_name: L:INI_TLA2_REQUEST
+    var_units: Position 16k
+    var_type: f64
+    event_name: THROTTLE2_SET
+    unreliable: true
 
   #Flaps
   -
-    type: numset
+    type: NumSet
     var_name: A:FLAPS_HANDLE_PERCENT
     var_units: Percent 16k
     var_type: f64
