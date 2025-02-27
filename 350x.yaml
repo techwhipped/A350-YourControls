@@ -27,6 +27,18 @@ shared:
   -
     type: var
     var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2
+  -
+    type: var
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1_ANIMATION
+  -
+    type: var
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2_ANIMATION
+  -
+    type: var
+    var_name: L:NI_TLA2_REQUEST
+  -
+    type: var
+    var_name: L:NI_TLA1_REQUEST
 
   #Flaps
   -
