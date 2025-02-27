@@ -860,6 +860,394 @@ shared:
   -
     type: var
     var_name: L:INI_CTR_VISOR_MAIN
+  #MCDU 1  and 2 function keys
+  -
+    type: var
+    var_name: L:INI_MCDU1_ESC
+  -
+    type: var
+    var_name: L:INI_MCDU1_CLR
+  -
+    type: var
+    var_name: L:INI_MCDU1_LEFT
+  -
+    type: var
+    var_name: L:INI_MCDU1_UP
+  -
+    type: var
+    var_name: L:INI_MCDU1_DOWN
+  -
+    type: var
+    var_name: L:INI_MCDU1_RIGHT
+  -
+    type: var
+    var_name: L:INI_MCDU1_DIR_TO
+  -
+    type: var
+    var_name: L:INI_MCDU1_FPLAN
+  -
+    type: var
+    var_name: L:INI_MCDU1_PERF
+  -
+    type: var
+    var_name: L:INI_MCDU1_DEST
+  -
+    type: var
+    var_name: L:INI_MCDU1_INIT
+  -
+    type: var
+    var_name: L:INI_MCDU1_SEC
+  -
+    type: var
+    var_name: L:INI_MCDU1_RADNAV
+  -
+    type: var
+    var_name: L:INI_MCDU1_SURV
+  -
+    type: var
+    var_name: L:INI_MCDU1_CL_MENU
+  -
+    type: var
+    var_name: L:INI_MCDU1_ATC
+  -
+    type: var
+    var_name: L:INI_MCDU2_ESC
+  -
+    type: var
+    var_name: L:INI_MCDU2_CLR
+  -
+    type: var
+    var_name: L:INI_MCDU2_LEFT
+  -
+    type: var
+    var_name: L:INI_MCDU2_UP
+  -
+    type: var
+    var_name: L:INI_MCDU2_DOWN
+  -
+    type: var
+    var_name: L:INI_MCDU2_RIGHT
+  -
+    type: var
+    var_name: L:INI_MCDU2_DIR_TO
+  -
+    type: var
+    var_name: L:INI_MCDU2_FPLAN
+  -
+    type: var
+    var_name: L:INI_MCDU2_PERF
+  -
+    type: var
+    var_name: L:INI_MCDU2_DEST
+  -
+    type: var
+    var_name: L:INI_MCDU2_INIT
+  -
+    type: var
+    var_name: L:INI_MCDU2_SEC
+  -
+    type: var
+    var_name: L:INI_MCDU2_RADNAV
+  -
+    type: var
+    var_name: L:INI_MCDU2_SURV
+  -
+    type: var
+    var_name: L:INI_MCDU2_CL_MENU
+  -
+    type: var
+    var_name: L:INI_MCDU2_ATC
+  #ABC KEYS MCDU 1,2
+  -
+    type: var
+    var_name: L:INI_MCDU1_A
+  -
+    type: var
+    var_name: L:INI_MCDU1_B
+  -
+    type: var
+    var_name: L:INI_MCDU1_C
+  -
+    type: var
+    var_name: L:INI_MCDU1_D
+  -
+    type: var
+    var_name: L:INI_MCDU1_E
+  -
+    type: var
+    var_name: L:INI_MCDU1_F
+  -
+    type: var
+    var_name: L:INI_MCDU1_G
+  -
+    type: var
+    var_name: L:INI_MCDU1_H
+  -
+    type: var
+    var_name: L:INI_MCDU1_I
+  -
+    type: var
+    var_name: L:INI_MCDU1_J
+  -
+    type: var
+    var_name: L:INI_MCDU1_K
+  -
+    type: var
+    var_name: L:INI_MCDU1_L
+  -
+    type: var
+    var_name: L:INI_MCDU1_M
+  -
+    type: var
+    var_name: L:INI_MCDU1_N
+  -
+    type: var
+    var_name: L:INI_MCDU1_O
+  -
+    type: var
+    var_name: L:INI_MCDU1_P
+  -
+    type: var
+    var_name: L:INI_MCDU1_Q
+  -
+    type: var
+    var_name: L:INI_MCDU1_R
+  -
+    type: var
+    var_name: L:INI_MCDU1_S
+  -
+    type: var
+    var_name: L:INI_MCDU1_T
+  -
+    type: var
+    var_name: L:INI_MCDU1_U
+  -
+    type: var
+    var_name: L:INI_MCDU1_V
+  -
+    type: var
+    var_name: L:INI_MCDU1_W
+  -
+    type: var
+    var_name: L:INI_MCDU1_X
+  -
+    type: var
+    var_name: L:INI_MCDU1_Y
+  -
+    type: var
+    var_name: L:INI_MCDU1_Z
+  -
+    type: var
+    var_name: L:INI_MCDU2_A
+  -
+    type: var
+    var_name: L:INI_MCDU2_B
+  -
+    type: var
+    var_name: L:INI_MCDU2_C
+  -
+    type: var
+    var_name: L:INI_MCDU2_D
+  -
+    type: var
+    var_name: L:INI_MCDU2_E
+  -
+    type: var
+    var_name: L:INI_MCDU2_F
+  -
+    type: var
+    var_name: L:INI_MCDU2_G
+  -
+    type: var
+    var_name: L:INI_MCDU2_H
+  -
+    type: var
+    var_name: L:INI_MCDU2_I
+  -
+    type: var
+    var_name: L:INI_MCDU2_J
+  -
+    type: var
+    var_name: L:INI_MCDU2_K
+  -
+    type: var
+    var_name: L:INI_MCDU2_L
+  -
+    type: var
+    var_name: L:INI_MCDU2_M
+  -
+    type: var
+    var_name: L:INI_MCDU2_N
+  -
+    type: var
+    var_name: L:INI_MCDU2_O
+  -
+    type: var
+    var_name: L:INI_MCDU2_P
+  -
+    type: var
+    var_name: L:INI_MCDU2_Q
+  -
+    type: var
+    var_name: L:INI_MCDU2_R
+  -
+    type: var
+    var_name: L:INI_MCDU2_S
+  -
+    type: var
+    var_name: L:INI_MCDU2_T
+  -
+    type: var
+    var_name: L:INI_MCDU2_U
+  -
+    type: var
+    var_name: L:INI_MCDU2_V
+  -
+    type: var
+    var_name: L:INI_MCDU2_W
+  -
+    type: var
+    var_name: L:INI_MCDU2_X
+  -
+    type: var
+    var_name: L:INI_MCDU2_Y
+  -
+    type: var
+    var_name: L:INI_MCDU2_Z
+  #numeric keys 1,2
+  -
+    type: var
+    var_name: L:INI_MCDU1_0
+  -
+    type: var
+    var_name: L:INI_MCDU1_1
+  -
+    type: var
+    var_name: L:INI_MCDU1_2
+  -
+    type: var
+    var_name: L:INI_MCDU1_3
+  -
+    type: var
+    var_name: L:INI_MCDU1_4
+  -
+    type: var
+    var_name: L:INI_MCDU1_5
+  -
+    type: var
+    var_name: L:INI_MCDU1_6
+  -
+    type: var
+    var_name: L:INI_MCDU1_7
+  -
+    type: var
+    var_name: L:INI_MCDU1_8
+  -
+    type: var
+    var_name: L:INI_MCDU1_9
+  -
+    type: var
+    var_name: L:INI_MCDU2_0
+  -
+    type: var
+    var_name: L:INI_MCDU2_1
+  -
+    type: var
+    var_name: L:INI_MCDU2_2
+  -
+    type: var
+    var_name: L:INI_MCDU2_3
+  -
+    type: var
+    var_name: L:INI_MCDU2_4
+  -
+    type: var
+    var_name: L:INI_MCDU2_5
+  -
+    type: var
+    var_name: L:INI_MCDU2_6
+  -
+    type: var
+    var_name: L:INI_MCDU2_7
+  -
+    type: var
+    var_name: L:INI_MCDU2_8
+  -
+    type: var
+    var_name: L:INI_MCDU2_9
+  #Additional Special Keys 1,2
+  -
+    type: var
+    var_name: L:INI_MCDU1_BACKSPACE
+  -
+    type: var
+    var_name: L:INI_MCDU1_SLASH
+  -
+    type: var
+    var_name: L:INI_MCDU1_SPACE
+  -
+    type: var
+    var_name: L:INI_MCDU1_NOTEPAD
+  -
+    type: var
+    var_name: L:INI_MCDU1_OIS
+  -
+    type: var
+    var_name: L:INI_MCDU1_ND
+  -
+    type: var
+    var_name: L:INI_MCDU1_MFD
+  -
+    type: var
+    var_name: L:INI_MCDU1_MAILBOX
+  -
+    type: var
+    var_name: L:INI_MCDU1_SCROLL_UP
+  -
+    type: var
+    var_name: L:INI_MCDU1_SCROLL_DOWN
+  -
+    type: var
+    var_name: L:INI_MCDU1_DECIMAL
+  -
+    type: var
+    var_name: L:INI_MCDU1_PLUS
+  -
+    type: var
+    var_name: L:INI_MCDU2_BACKSPACE
+  -
+    type: var
+    var_name: L:INI_MCDU2_SLASH
+  -
+    type: var
+    var_name: L:INI_MCDU2_SPACE
+  -
+    type: var
+    var_name: L:INI_MCDU2_NOTEPAD
+  -
+    type: var
+    var_name: L:INI_MCDU2_OIS
+  -
+    type: var
+    var_name: L:INI_MCDU2_ND
+  -
+    type: var
+    var_name: L:INI_MCDU2_MFD
+  -
+    type: var
+    var_name: L:INI_MCDU2_MAILBOX
+  -
+    type: var
+    var_name: L:INI_MCDU2_SCROLL_UP
+  -
+    type: var
+    var_name: L:INI_MCDU2_SCROLL_DOWN
+  -
+    type: var
+    var_name: L:INI_MCDU2_DECIMAL
+  -
+    type: var
+    var_name: L:INI_MCDU2_PLUS
   # ECAM
   -
     type: var
