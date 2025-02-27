@@ -29,7 +29,7 @@ shared:
     var_name: L:INI_AUTOTHRUST_TLA:2
   -
     type: var
-    var_name: L:INI_THROTTLE_LEVER2_POS
+    var_name: L:FG_N1_TGT
   -
     type: var
     var_name: L:INI_THROTTLE_MAPPING_INPUt:1
