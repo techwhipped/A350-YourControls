@@ -21,6 +21,12 @@ shared:
   -
     type: var
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
+  -
+    type: var
+    var_name: L:INI_TLA1_REQUEST
+  -
+    type: var
+    var_name: L:INI_TLA2_REQUEST
 
   #Flaps
   -
