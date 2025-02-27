@@ -23,10 +23,10 @@ shared:
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1_ANIMATION
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2_ANIMATION
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2
 
   #Flaps
   -
