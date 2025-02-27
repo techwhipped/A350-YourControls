@@ -30,6 +30,7 @@ shared:
   -
     type: var
     var_name: A:FLAPS_HANDLE_POSITION
+    var_units: Position 16k
   -
     type: var
     var_name: L:INI_THROTTLE_MAPPING_INPUt:1
