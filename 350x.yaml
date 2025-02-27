@@ -11,10 +11,10 @@ shared:
   #Throttle
   -
     type: var
-    var_name: L:INI_AUTOTHRUST_TLA:1
+    var_name: L:INI_ENG1_THROTTLE_POS
   -
     type: var
-    var_name: L:INI_AUTOTHRUST_TLA:2
+    var_name: L:INI_ENG2_THROTTLE_POS
   -
     type: var
     var_name: L:INI_REVERSE1_HANDLE_PERCENT
