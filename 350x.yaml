@@ -29,10 +29,10 @@ shared:
     var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1_ANIMATION
+    var_name: L:INI_THROTTLE_LEVER2_POS
   -
     type: var
-    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2_ANIMATION
+    var_name: L:IINI_THROTTLE_LEVER1_POS
   -
     type: var
     var_name: L:INI_TLA2_REQUEST
