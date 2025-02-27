@@ -1,6 +1,6 @@
 # Version 1.0.0
-Made by:
-Ath1uxx, negativekd, justValgon, NichtLuis 
+# Made by:
+# Ath1uxx, negativekd, justValgon, NichtLuis 
 include:
   - definitions/modules/physics.yaml
   - definitions/modules/radios.yaml
