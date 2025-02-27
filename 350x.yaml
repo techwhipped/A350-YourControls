@@ -873,7 +873,13 @@ shared:
   #MCDU 1  and 2 function keys
   -
     type: var
+    var_name: L:INI_MCDU1_KBD
+  -
+    type: var
     var_name: L:INI_MCDU1_ESC
+  -
+    type: var
+    var_name: L:INI_MCDU1_ENTER
   -
     type: var
     var_name: L:INI_MCDU1_CLR
@@ -919,6 +925,12 @@ shared:
   -
     type: var
     var_name: L:INI_MCDU1_ATC
+  -
+    type: var
+    var_name: L:INI_MCDU2_KBD
+  -
+    type: var
+    var_name: L:INI_MCDU2_ENTER
   -
     type: var
     var_name: L:INI_MCDU2_ESC
