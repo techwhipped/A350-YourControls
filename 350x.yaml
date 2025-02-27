@@ -1253,13 +1253,6 @@ shared:
   -
     type: var
     var_name: L:INI_MCDU2_PLUS
-  #MCDU CURSOR
-  -
-    type: var
-    var_name: L:INI_FO_CURSOR_SCREEN
-  -
-    type: var
-    var_name: L:INI_CPT_CURSOR_SCREEN
   # ECAM
   -
     type: var
@@ -1353,3 +1346,13 @@ shared:
   - 
     type: var
     var_name: L:INI_ECAM_CURRENT_PAGE
+  #WORKING MCDU BUTTONS
+  -
+    type: var
+    var_name: L:INI_MCDU1_0
+  -
+    type: var
+    var_name: L:INI_MCDU1_MFD
+  -
+    type: var
+    var_name: L:INI_MCDU1_OIS
