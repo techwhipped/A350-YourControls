@@ -22,19 +22,11 @@ shared:
     type: var
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
   -
-    type: numset
-    var_name: L:INI_TLA1_REQUEST
-    var_units: Position 45k
-    var_type: f64
-    event_name: ENG_THROTTLE_RIGHT
-    interpolate: Default
+    type: var
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_1_ANIMATION
   -
-    type: numset
-    var_name: L:INI_TLA2_REQUEST
-    var_units: Position 45k
-    var_type: f64
-    event_name: ENG_THROTTLE_LEFT
-    interpolate: Default
+    type: var
+    var_name: L:INI_3D_THROTTLE_LEVER_POSITION_2_ANIMATION
 
   #Flaps
   -
