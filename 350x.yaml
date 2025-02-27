@@ -26,8 +26,14 @@ shared:
 
   #Flaps
   -
-    type: var
+    type: NumIncrement
     var_name: L:INI_FLAPS_HANDLE_INDEX
+    var_units: number
+    var_type: f64
+    up_event_name: FLAPS_INCR
+    down_event_name: FLAPS_DECR
+    increment_by: 1
+    is_user_event: true
 
   # AUTOPILOT
   -
