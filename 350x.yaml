@@ -27,12 +27,11 @@ shared:
   #Flaps
   -
     type: NumIncrement
-    var_name: L:INI_FLAPS_HANDLE_INDEX
-    var_units: number
+    var_name: L:FCLTL_FLAPS_LEVER
+    var_units: Position 16k
     var_type: f64
-    up_event_name: FLAPS_INCR
-    down_event_name: FLAPS_DECR
-    increment_by: 1
+    event_name: FLAPS_HANDLE_PERCENT
+    increment_by: 4096
     is_user_event: true
 
   # AUTOPILOT
