@@ -1356,3 +1356,226 @@ shared:
   -
     type: var
     var_name: L:INI_MCDU1_OIS
+  #PEDESTAl ISIS
+  -
+    type: var
+    var_name: L:INI_ISIS1_BARO_PUSH_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_BARO_PUSH_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_LSD_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_LSD_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_MENU
+  -
+    type: var
+    var_name: L:INI_ISIS1_MINUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_MODE
+  -
+    type: var
+    var_name: L:INI_ISIS1_PLUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_BARO_PLUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS1_BARO_MINUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_MENU
+  -
+    type: var
+    var_name: L:INI_ISIS2_MINUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_MODE
+  -
+    type: var
+    var_name: L:INI_ISIS2_PLUS_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_PLUS_BARO_COMMAND
+  -
+    type: var
+    var_name: L:INI_ISIS2_BARO_MINUS_COMMAND
+  #PEDESTAL PARK BRK PANEL
+  -
+    type: var
+    var_name: L:PARKING_BRAKES
+  -
+    type: var
+    var_name: L:INI_ACCU_REINFLATE
+  -
+    type: var
+    var_name: L:INI_GRAVITY_GEAR_COVER
+  -
+    type: var
+    var_name: L:INI_GRAVITY_GEAR_GUARD_1
+  -
+    type: var
+    var_name: L:INI_GRAVITY_GEAR_GUARD_2
+  -
+    type: var
+    var_name: L:INI_GRAVITY_GEAR_HANDLE_STATE
+  #RUDDER TRIM
+  -
+    type: var
+    var_name: L:XMLVAR_RudderTrim_Switch_1
+  -
+    type: var
+    var_name: L:'INI.RUDDER_TRIM_RESET'
+  #RMPS
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_0_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_1_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_2_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_3_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_4_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_5_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_6_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_7_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_8_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_9_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_UP_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_DOWN_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_LOAD_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_PERIOD_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NUM_CLR_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_RSK_1_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_RSK_2_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_RSK_3_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_RSK_4_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_CLR_INFO_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_LSK_1_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_LSK_2_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_LSK_3_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_LSK_4_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_VHF_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_VHF_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_HF_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_TEL_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_ATC_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_NAV_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_SQWK_KEY
+  -
+    type: var
+    var_name: L:RMP_CPT_MENU_KEY
+  -
+    type: var
+    var_name: L:INI_RMP1_TRANSMIT_CHANNEL
+  -
+    type: var
+    var_name: L:INI_RMP1_1_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_TRANSMIT_CHANNEL
+  -
+    type: var
+    var_name: L:INI_RMP1_2_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_3_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_4_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_5_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_6_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_7_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_8_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_9_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_10_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP1_11_VOLUME
+  -
+    type: var
+    var_name: L:INI_RMP_BRT_1
+  -
+    type: var
+    var_name: L:INI_CPT_RADIO_MODE
+  -
+    type: var
+    var_name: L:INI_RMP_RAD_NAV_MODE_1
+  -
+    type: var
+    var_name: L:INI_RMP_INT_RAD_1
