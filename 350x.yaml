@@ -238,6 +238,13 @@ shared:
   - 
     type: var
     var_name: L:INI_FCU_PULL_COMMAND 
+  #APU
+  -
+    type: var
+    var_name: L:INI_APU_MASTER_STWITCH
+  -
+    type: var
+    var_name: L:INI_APU_START_BUTTON
   # LIGHTS
   -
     type: var
@@ -1428,7 +1435,7 @@ shared:
     var_name: L:XMLVAR_RudderTrim_Switch_1
   -
     type: var
-    var_name: L:'INI.RUDDER_TRIM_RESET'
+    var_name: L:RESETTING_RUDDER_TRIM
   #RMPS
   -
     type: var
