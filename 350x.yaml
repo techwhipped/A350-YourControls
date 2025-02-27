@@ -32,7 +32,10 @@ shared:
     var_name: L:INI_THROTTLE_LEVER2_POS
   -
     type: var
-    var_name: L:XMLVAR_IE_Throttle_VR_Value
+    var_name: L:INI_THROTTLE_MAPPING_INPUt:1
+  -
+    type: var
+    var_name: L:INI_THROTTLE_MAPPING_INPUt:2
   -
     type: var
     var_name: L:INI_TLA2_REQUEST
