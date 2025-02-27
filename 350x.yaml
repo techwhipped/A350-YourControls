@@ -763,7 +763,7 @@ shared:
   -
     type: var
     var_name: L:INI_HYD_ELEC2_OVERRIDE
-    -
+  -
     type: var
     var_name: L:INI_HYD_ELEC1_OVERRIDE
   #OVHD F/CTL
