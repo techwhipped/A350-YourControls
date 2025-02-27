@@ -1,5 +1,11 @@
 # A350-Yourcontrols
 
-- Experimental Version
-- Could have more features 
-- May also be broken
+- Our Try of a YourControls Profile for the INI A350
+- Only 2020 version
+- Not really useable (Throttles, Flaps and Speedbrakes are not synced)
+- Overhead completly synced
+- EFIS and FCU mostly synced
+- MCDU not synced
+  
+- Have Fun with It!
+  
