@@ -1248,6 +1248,13 @@ shared:
   -
     type: var
     var_name: L:INI_MCDU2_PLUS
+  #MCDU CURSOR
+  -
+    type: var
+    var_name: L:INI_FO_CURSOR_SCREEN
+  -
+    type: var
+    var_name: L:INI_CPT_CURSOR_SCREEN
   # ECAM
   -
     type: var
