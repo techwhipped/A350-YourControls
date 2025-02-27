@@ -22,24 +22,18 @@ shared:
     type: var
     var_name: L:INI_REVERSE2_HANDLE_PERCENT
   -
-    type: var
-    var_name: L:INI_TLA1_REQUEST
-  -
-    type: var
-    var_name: L:INI_TLA2_REQUEST
-  -
     type: numset
     var_name: L:INI_TLA1_REQUEST
     var_units: Position 65k
     var_type: f64
-    event_name: THROTTLE1_SET
+    event_name: THROTTLE_1_SET
     interpolate: Default
   -
     type: numset
     var_name: L:INI_TLA2_REQUEST
     var_units: Position 65k
     var_type: f64
-    event_name: THROTTLE2_SET
+    event_name: THROTTLE_2_SET
     interpolate: Default
 
   #Flaps
