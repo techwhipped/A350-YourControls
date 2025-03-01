@@ -31,11 +31,6 @@ shared:
     var_name: L:INI_AUTOTHRUST_TLA:2
   -
     type: var
-    var_name: A:FLAPS_HANDLE_POSITION
-    var_units: Number
-    var_type: f64
-  -
-    type: var
     var_name: L:INI_THROTTLE_MAPPING_INPUT:1
   -
     type: var
@@ -64,12 +59,7 @@ shared:
   #Flaps
   -
     type: NumSet
-    var_name: A:FLAPS_HANDLE_PERCENT
-    var_units: Percent 16k
-    var_type: f64
-    event_name: FLCTL_FLAPS_LEVER
-    increment_by: 4096
-    interpolate: Default
+    var_name: L:INI_FLAPS_HANDLE_POSITION
 
   # AUTOPILOT
   -
