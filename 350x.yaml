@@ -31,6 +31,12 @@ shared:
     var_name: L:INI_AUTOTHRUST_TLA:2
   -
     type: var
+    var_name: INI_ENG1_THR_COMMANDED
+  -
+    type: var
+    var_name: INI_ENG2_THR_COMMANDED
+  -
+    type: var
     var_name: L:INI_THROTTLE_MAPPING_INPUT:1
   -
     type: var
