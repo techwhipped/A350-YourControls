@@ -36,10 +36,10 @@ shared:
     var_type: f64
   -
     type: var
-    var_name: L:INI_THROTTLE_MAPPING_INPUt:1
+    var_name: L:INI_THROTTLE_MAPPING_INPUT:1
   -
     type: var
-    var_name: L:INI_THROTTLE_MAPPING_INPUt:2
+    var_name: L:INI_THROTTLE_MAPPING_INPUT:2
   -
     type: var
     var_name: L:INI_TLA2_REQUEST
